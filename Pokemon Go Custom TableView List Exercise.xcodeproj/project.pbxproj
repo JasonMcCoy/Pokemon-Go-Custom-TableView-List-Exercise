@@ -14,6 +14,7 @@
 		510566CA1D37F0B9005E07B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510566C81D37F0B9005E07B5 /* LaunchScreen.storyboard */; };
 		510566D51D37F0B9005E07B5 /* Pokemon_Go_Custom_TableView_List_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510566D41D37F0B9005E07B5 /* Pokemon_Go_Custom_TableView_List_ExerciseTests.swift */; };
 		510566E01D37F0B9005E07B5 /* Pokemon_Go_Custom_TableView_List_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510566DF1D37F0B9005E07B5 /* Pokemon_Go_Custom_TableView_List_ExerciseUITests.swift */; };
+		51B8892A1D4F95A100226723 /* myPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B889291D4F95A100226723 /* myPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		510566DB1D37F0B9005E07B5 /* Pokemon Go Custom TableView List ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon Go Custom TableView List ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		510566DF1D37F0B9005E07B5 /* Pokemon_Go_Custom_TableView_List_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_Go_Custom_TableView_List_ExerciseUITests.swift; sourceTree = "<group>"; };
 		510566E11D37F0B9005E07B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B889291D4F95A100226723 /* myPokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				510566BF1D37F0B9005E07B5 /* AppDelegate.swift */,
 				510566C11D37F0B9005E07B5 /* ViewController.swift */,
+				51B889291D4F95A100226723 /* myPokemon.swift */,
 				510566C31D37F0B9005E07B5 /* Main.storyboard */,
 				510566C61D37F0B9005E07B5 /* Assets.xcassets */,
 				510566C81D37F0B9005E07B5 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B8892A1D4F95A100226723 /* myPokemon.swift in Sources */,
 				510566C21D37F0B9005E07B5 /* ViewController.swift in Sources */,
 				510566C01D37F0B9005E07B5 /* AppDelegate.swift in Sources */,
 			);
@@ -497,6 +501,7 @@
 				510566E61D37F0B9005E07B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		510566E71D37F0B9005E07B5 /* Build configuration list for PBXNativeTarget "Pokemon Go Custom TableView List ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				510566E91D37F0B9005E07B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		510566EA1D37F0B9005E07B5 /* Build configuration list for PBXNativeTarget "Pokemon Go Custom TableView List ExerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				510566EC1D37F0B9005E07B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
