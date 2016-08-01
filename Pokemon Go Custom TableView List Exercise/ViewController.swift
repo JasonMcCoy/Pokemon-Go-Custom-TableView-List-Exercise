@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "myPokemon") as? MyPokemon {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "MyPokemon") as? MyPokemon {
             
             var img: UIImage!
             
