@@ -1,5 +1,8 @@
-# Pokemon-Go-Custom-TableView-List-Exercise - This is an app that will show a list of my top 5 favorite pokemon
+# Pokemon-Go-Custom-TableView-List-Exercise - This is an app that will show a list of my top 5 favorite pokemon.
 # By Jason McCoy
+
+
+This is an app that will show a list of my top 5 favorite pokemon.
 
 
 Here is what my final xcode setup looks like:
