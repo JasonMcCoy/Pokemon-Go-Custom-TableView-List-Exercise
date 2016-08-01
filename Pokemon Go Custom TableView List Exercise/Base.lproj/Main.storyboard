@@ -22,7 +22,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xvp-jT-YhI">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myPokemon" rowHeight="71" id="5lO-Bg-Kcj" customClass="myPokemon" customModule="Pokemon_Go_Custom_TableView_List_Exercise" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyPokemon" rowHeight="71" id="5lO-Bg-Kcj" customClass="MyPokemon" customModule="Pokemon_Go_Custom_TableView_List_Exercise" customModuleProvider="target">
                                         <frame key="frameInset" minY="28" width="343" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5lO-Bg-Kcj" id="T8T-gP-Ns2">

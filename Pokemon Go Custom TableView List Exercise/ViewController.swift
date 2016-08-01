@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "myPokemon") as? myPokemon {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "myPokemon") as? MyPokemon {
             
             var img: UIImage!
             
@@ -57,11 +57,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         } else {
             
-            return myPokemon
+            return MyPokemon()
             
         }
-        
-        return cell
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -69,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        return myPokemon.count
     }
     
 
