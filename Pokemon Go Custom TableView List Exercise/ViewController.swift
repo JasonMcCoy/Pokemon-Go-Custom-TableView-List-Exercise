@@ -28,7 +28,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                                 "Go! MEGA Blastoise.",
                                 "Go! Arcanine.",
                                 "Go! Gyaradose.",
-                                "Go! Gengar."]
+                                "Go! Gengar."
+                                ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,12 +47,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let url = NSURL(string: myPokemon[indexPath.row])!
             if let data = NSData(contentsOf: url as URL) {
-               let img = UIImage(data: data as Data)
+                img = UIImage(data: data as Data)
             } else {
                 img = UIImage(named: "whosThatPokemon")
             }
             
-            cell.configureCell(image: img, text: myPokemon[indexPath.row])
+            cell.configureCell(image: img, text: myPokemonDescription[indexPath.row])
             
             return cell
             
